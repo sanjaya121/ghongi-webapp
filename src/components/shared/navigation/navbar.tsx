@@ -17,22 +17,25 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarColor01">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page"  to="/">Home</Link>
+                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/products">Producs</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Pricing</a>
+                            <Link className="nav-link" to="/hooks">Hooks</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <Link className="nav-link" to="/clock">Clock</Link>
+                        </li>
+                         <li className="nav-item">
+                            <Link className="nav-link" to="/css-grid">CSS Grid</Link>
                         </li>
                     </ul>
-                    <form className="d-flex" role="search">
+                    {/* <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-outline-light" type="submit">Search</button>
-                    </form>
+                    </form> */}
                 </div>
             </div>
         </nav>
