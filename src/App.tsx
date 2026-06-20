@@ -13,7 +13,7 @@ import CssGrid from './components/routes/cssgrid/Cssgrid'
 
 function App() {
 
-  const products = useFetch('./data/products.json');
+  // const products = useFetch('./data/products.json');
 
   const [products,setProducts]=useState([])
 
